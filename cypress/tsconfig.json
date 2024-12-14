@@ -1,0 +1,7 @@
+{
+    "compilerOptions": {
+        "types": ["cypress", "@cypress/webpack-dev-server"]
+    },
+    "include": ["./**/*.ts", "./**/*.tsx", "./**/*.js", "./**/*.jsx"],
+    "exclude": ["node_modules", "cypress/plugins/index.js"]
+}
